@@ -11,6 +11,7 @@
   inputs.src-bencode-master.ref   = "refs/heads/master";
   inputs.src-bencode-master.owner = "FedericoCeratto";
   inputs.src-bencode-master.repo  = "nim-bencode";
+  inputs.src-bencode-master.dir   = "";
   inputs.src-bencode-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
